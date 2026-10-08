@@ -1,0 +1,113 @@
+.grade-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+.grade-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 24px;
+  background: white;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+}
+
+.grade-label {
+  margin: 0 0 8px;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #777;
+}
+
+.grade-card h1 {
+  margin: 0 0 30px;
+  font-size: 32px;
+}
+
+.student-info {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.student-info p {
+  margin: 0;
+  color: #777;
+}
+
+.student-info strong {
+  font-size: 16px;
+}
+
+.divider {
+  height: 1px;
+  margin: 28px 0;
+  background: #ddd;
+}
+
+.grade-card h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.subject-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.subject {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 12px;
+  background: #f5f5f5;
+}
+
+.subject p {
+  margin: 0;
+}
+
+.subject strong {
+  font-size: 18px;
+}
+
+.gpa-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+  padding: 20px;
+  border-radius: 14px;
+  background: #eeeeee;
+}
+
+.gpa-box p {
+  margin: 0;
+}
+
+.gpa-box strong {
+  font-size: 24px;
+}
+
+.grade-card button {
+  width: 100%;
+  margin-top: 24px;
+  padding: 14px;
+  border: none;
+  border-radius: 12px;
+  background: #222;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.grade-card button:hover {
+  opacity: 0.85;
+}

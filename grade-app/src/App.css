@@ -1,0 +1,188 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6fa;
+    color: #333;
+}
+
+.admin-page {
+    width: 90%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.admin-page > h1 {
+    margin: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.point-control {
+    padding: 15px;
+    background: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.point-control > h2 {
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.point-form {
+    margin-bottom: 12px;
+}
+
+.point-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 11px;
+    color: #555;
+}
+
+.point-form select,
+.point-form input {
+    width: 100%;
+    height: 38px;
+    padding: 0 10px;
+    border: 1px solid #dfe3e8;
+    border-radius: 6px;
+    background: white;
+    font-size: 11px;
+    outline: none;
+}
+
+.point-form select:focus,
+.point-form input:focus {
+    border-color: #6366f1;
+}
+
+.apply-button {
+    width: 100%;
+    height: 38px;
+    border: 0;
+    border-radius: 6px;
+    background: #6366f1;
+    color: white;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+.result-message {
+    margin: 10px 0 0;
+    padding: 9px;
+    text-align: center;
+    border-radius: 5px;
+    background: #ecfdf5;
+    color: #16a34a;
+    font-size: 11px;
+}
+
+.admin-page > h2 {
+    margin: 20px 0 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.user-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 10px;
+    margin-bottom: 5px;
+    background: #f8fafc;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+.user-item strong {
+    color: #4f46e5;
+}
+
+.user-count {
+    margin: 12px 0;
+    text-align: center;
+    font-size: 10px;
+    color: #555;
+}
+
+.button-area {
+    display: flex;
+    gap: 5px;
+}
+
+.button-area button {
+    padding: 7px 11px;
+    border: 0;
+    border-radius: 5px;
+    background: #334155;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.graph-area {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+}
+
+.graph-area h2 {
+    margin: 0 0 15px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.graph-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
+
+.graph-name {
+    width: 45px;
+}
+
+.graph-background {
+    flex: 1;
+    height: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+    background: #e5e7eb;
+}
+
+.graph-bar {
+    height: 100%;
+    border-radius: 5px;
+    background: #6366f1;
+}
+
+.graph-row strong {
+    width: 55px;
+    text-align: right;
+}
+
+@media (max-width: 600px) {
+    .admin-page {
+        width: 92%;
+        margin: 20px auto;
+        padding: 20px;
+    }
+}
