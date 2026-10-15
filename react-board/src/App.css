@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f1f5f9;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #0f172a;
+}
+
+.page {
+  width: 100%;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.page h1 {
+  margin-top: 0;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.post-card {
+  margin-bottom: 20px;
+  padding: 24px;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(15, 23, 42, 0.05);
+}
+
+.post-card h2 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #1e293b;
+}
+
+.post-card p {
+  margin-bottom: 0;
+  line-height: 1.7;
+  color: #475569;
+}
+
+@media (max-width: 600px) {
+  .page {
+    margin: 20px auto;
+    padding: 16px;
+  }
+
+  .page h1 {
+    font-size: 26px;
+  }
+
+  .post-card {
+    padding: 18px;
+  }
+}
+.search-area {
+  margin-bottom: 15px;
+}
+
+.search-area input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+
+.search-area input:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+}
+
+.search-count {
+  margin-bottom: 20px;
+  text-align: right;
+  font-size: 14px;
+  font-weight: bold;
+  color: #64748b;
+}
+
+.post-card-search {
+  padding: 32px;
+  border: 2px solid #6366f1;
+  background: #ffffff;
+  transform: scale(1.02);
+}
+
+.post-card-search h2 {
+  font-size: 26px;
+  color: #312e81;
+}
+
+.post-card-search p {
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.no-result {
+  margin-top: 30px;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  border-radius: 10px;
+  color: #94a3b8;
+  font-weight: bold;
+}
